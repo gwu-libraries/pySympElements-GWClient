@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my-elements-client"
+name = "pySympElements-GWClient"
 version = "0.1.0"
 description = "A client application that uses pySympElements to interact with the Elements API"
 authors = [
