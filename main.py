@@ -18,7 +18,7 @@ user = client.get_object('users', 767, detail='full')
 rel1 = client.get_relationships(object=f'user({user.id})')
 
 # Get all the publications with full details, limiting to 3 pages of results
-pubs = client.get_publications(detail = 'full', max_pages=3)
+pubs = client.get_publications(detail = 'full', limit = 88)
 
 print(user.to_json())
 print(rel1) # Note that rel1 is a list of Relationship objects, not a JSON string. You can convert it to JSON if needed.
